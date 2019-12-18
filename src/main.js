@@ -1,5 +1,5 @@
+import './lib';
 import './lib-vue';
-import './lib-window';
 
 import Vue from 'vue';
 import App from './App.vue';

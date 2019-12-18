@@ -25,7 +25,7 @@
             prop: String,
             trigger: {
                 type: String,
-                default: 'input', // input（即时验证） or none（表单提交时验证） -- 暂时实现不了了，只能表单提交时验证
+                default: 'input', // input（即时验证） or none（表单提交时验证）
             },
         },
         data() {
@@ -54,6 +54,7 @@
                             });
                         };
                     }
+
                     if (this.trigger === 'blur') {
                         events.blur = () => {
                             this.validate();

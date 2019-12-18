@@ -1,1 +1,8 @@
-// 全局变量文件
+@import "~@public/reset.scss";
+// 全局变量
+
+
+// 全局样式
+*, :after, :before {
+  box-sizing: border-box;
+}
